@@ -37,7 +37,7 @@
           "agent_id": "1489f574-307d-457e-b8ad-53ac861c4ce9",
           "agent_name": "from-key-8095",
           "local_ip": "127.0.0.1",
-          "local_port": 25565
+          "local_port": 42143
         },
         "type": "agent"
       },
@@ -49,11 +49,56 @@
       },
       "region": "global",
       "tunnel_type": "minecraft-java"
+    },
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "repair-patricia.gl.at.ply.gg",
+          "assigned_srv": null,
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "027b30f1-d5a0-4740-b9ca-158ff36fa83c",
+          "ip_hostname": "20.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 3204,
+          "port_start": 3203,
+          "region": "global",
+          "static_ip4": "147.185.221.20",
+          "tunnel_ip": "2602:fbaf:0:1::14"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-06-26T03:50:27.579717Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "7e6552b7-656e-4695-89c4-a2a6049c7120",
+      "name": "unnamed",
+      "origin": {
+        "data": {
+          "agent_id": "1489f574-307d-457e-b8ad-53ac861c4ce9",
+          "agent_name": "from-key-8095",
+          "local_ip": "127.0.0.1",
+          "local_port": 3203
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "udp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": null
     }
   ],
   "udp_alloc": {
     "allowed": 6,
-    "claimed": 0,
-    "desired": 0
+    "claimed": 1,
+    "desired": 1
   }
 }
